@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nedaa.project.Activity4">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:background="@drawable/red"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="تسمم" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="حادث مروري" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="كسور" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="حريق" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="نزيف" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="أزمة قلبية" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="فقدان الوعي" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="غير دلك" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="156dp"
+            android:layout_height="47dp"
+            android:background="@android:color/holo_red_dark"
+            android:elevation="0dp"
+            android:fontFamily="sans-serif"
+            android:text=" تسجيل دخول"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="459dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="تفاصيل المشكلة"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+</android.support.constraint.ConstraintLayout>

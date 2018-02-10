@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nedaa.project.Activity3">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="97dp"
+        android:background="@drawable/nedaa"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="294dp"
+        android:layout_height="42dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="اسم المستخدم"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:background="@android:color/holo_red_dark"
+        android:elevation="0dp"
+        android:fontFamily="sans-serif"
+        android:text=" تسجيل دخول"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="398dp" />
+</android.support.constraint.ConstraintLayout>
